@@ -7,7 +7,7 @@ home_dir= "/Users/ujjwalgoenka/Desktop/Screenshots"
 
 #directory path to the folders where screenshots need to be transferred
 dir_one = "/Users/ujjwalgoenka/Desktop/Semester 2/Managment Accounting/screenshots" #MA
-dir_two = "/Users/ujjwalgoenka/Desktop/Semester 2/Corporate Finance/new"     #CF
+dir_two = "/Users/ujjwalgoenka/Desktop/Semester 2/Corporate Finance/new"            #CF
 dir_three = "/Users/ujjwalgoenka/Desktop/Semester 2/QT/screenshots"                 #QT
 dir_four = "/Users/ujjwalgoenka/Desktop/Semester 2/Macro/screenshots"               #Macro
 dir_five = "/Users/ujjwalgoenka/Desktop/Semester 2/POM/screenshots"                 #POM
