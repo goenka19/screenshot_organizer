@@ -33,6 +33,9 @@ for file in files:
         #print(file)
         #print("File not compatible") #mainly for .ds store file
         continue
+    if not file.startswith("Screenshot"):
+        #for any png that is not a screenshot
+        continue
     date_time = datetime.strptime(file, "Screenshot %Y-%m-%d at %I.%M.%S %p.png")
     only_time = date_time.time()
     day = date_time.strftime("%A")
@@ -58,6 +61,3 @@ for file in files:
     dst_path = f'{dst_dir}/{file}'
     #print(f'Moving {src_path} to {dst_path}')
     shutil.move(src_path, dst_path)
-    
-
-    
