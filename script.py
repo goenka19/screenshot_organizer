@@ -1,3 +1,5 @@
+#first script  - uses clunky if else statements
+
 import os 
 import shutil
 from datetime import date, datetime, time
